@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 import requests
 
 # Telegram Bot Token (replace with your bot token)
-BOT_TOKEN = "JAVASCRIPT-URL"
+BOT_TOKEN = "api.js"
 TELEGRAM_API_URL = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
 
 app = Flask(__name__)
